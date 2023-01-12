@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+       
+    body {
+      background-color: lightblue;
+      border: 20px solid greenyellow;
+    }
+    
+  }
+
+* {
+    color:  blue;
+    box-sizing: border-box;/**esta prop hace que los elementos se repartan uniformemente*/
+}
+/**
+El asterisco coloca las propiedades a todos los 
+elementos que no tengan definida alguna propiedad
+*/
+section{
+    border: 10px solid green;
+    margin: 25px 10px 40px;
+    padding: 25px 15px 15px 35px;
+}
+
+p, span {
+    color: red;
+    width: 300px;
+}
+/**
+Esta es una pagina linkeada y es buena practica
+*/
+h1{
+    font-family: 'Trocchi', serif;
+    border: 5px solid black;
+    margin: 30px;
+    padding: 5px;
+    font-weight: bold;
+    color: grey;
+}
+
+#mi_parrafo {
+    color: blueviolet;
+    font-size: 23px;
+    border: 2px solid orange;
+}
+
+.mi_clase{
+    color: rgb(43, 226, 101);
+    font-size: 30px;
+    border: 8px solid rgb(212, 255, 0);
+}
+
+section div {
+    font-size: 100px;
+}/**esto coloca propiedades en el div que esta dentro del section solamente*/
